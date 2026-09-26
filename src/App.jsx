@@ -9,7 +9,7 @@ import Signup from "./pages/Signup";
 import AdminDashboard from "./pages/AdminDashboard";
 import ChildDashboard from "./pages/ChildDashboard";
 import ProtectedRoute from "./pages/ProtectedRoute";
-import InvoicePage from "./pages/Invoicepage";
+import InvoicePage from "./pages/InvoicePage";
 
 import "./App.css";
 
