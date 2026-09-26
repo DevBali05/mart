@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase/firebase";
 import { statusLabel, formatDate } from "../utils/orderStages";
-import { generateInvoicePDF } from "../utils/invoicepdf";
+import { generateInvoicePDF } from "../utils/Invoicepdf";
 import { SHIPPING_CHARGE, parseAmount, formatAED } from "../utils/Pricing";
 
 export default function InvoicePage() {
